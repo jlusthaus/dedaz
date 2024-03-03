@@ -1,0 +1,38 @@
+[
+    {
+        "ApplicationProperties": {
+            "key1": "value1",
+            "key2": 2
+        },
+        "Body": "dGVzdCBib2R5IDAg",
+        "ContentType": "text/plain",
+        "CorrelationID": "correlation-id-0",
+        "MessageID": "message-id-0",
+        "PartitionKey": "partition-key-0",
+        "ReplyTo": "reply-to-0",
+        "ReplyToSessionID": "reply-to-session-id-0",
+        "ScheduledEnqueueTime": "2022-01-01T00:00:00Z",
+        "SessionID": "session-id-0",
+        "Subject": "subject-0",
+        "TimeToLive": 3600000000000,
+        "To": "to-0"
+    },
+    {
+        "ApplicationProperties": {
+            "key1": "value1",
+            "key2": 2
+        },
+        "Body": "dGVzdCBib2R5IDEg",
+        "ContentType": "text/plain",
+        "CorrelationID": "correlation-id-1",
+        "MessageID": "message-id-1",
+        "PartitionKey": "partition-key-1",
+        "ReplyTo": "reply-to-1",
+        "ReplyToSessionID": "reply-to-session-id-1",
+        "ScheduledEnqueueTime": "2022-01-01T01:00:00Z",
+        "SessionID": "session-id-1",
+        "Subject": "subject-1",
+        "TimeToLive": 7200000000000,
+        "To": "to-1"
+    }
+]

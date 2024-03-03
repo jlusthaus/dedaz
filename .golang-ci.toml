@@ -1,0 +1,36 @@
+[output]
+format = "colored-line-number"
+
+[linters]
+enable = [
+    "deadcode", # Finds unused code
+    "errcheck", # Detect unchecked errors
+    "gosimple", # Suggest code simplifications
+    "govet", # Reports suspicious constructs
+    "ineffassign", # Detects unused variable assignments
+    "staticcheck", # go vet on steroids
+    "structcheck", # Find unused struct fields
+    "typecheck", # Standard Go type checks
+    "unused", # Detect unused constants, variables, functions and types
+    "varcheck", # Find unused global variables and constants
+
+    "gocyclo", # or "cyclop", # Detect cyclomatic complexity
+    "goconst", # Detect repeated values that can be made constants
+    "gofumpt", # Or "gofmt", # Enforce standard formatting
+    "goimports", # Ensure standard import formatting/ordering
+    "misspell", # Fix spelling errors
+    "revive",  # General purpose linter    
+    "unconvert", # Detect unnecessary type conversions
+    "unparam", # Detect unused function parameters
+
+    "bodyclose", # Check whether HTTP response bodies are closed
+    "goerr113", # Enforce standard error handling practices
+    "depguard", # Forbid certain package imports
+    "dupl", # Detect duplicate code
+    "errchkjson", # some JSON-specific checks
+    "nakedret", # Detect naked returns
+    "tparallel", # Detects inappropriate use of t.Parallel()
+]
+
+[issues]
+exclude-use-default = false
